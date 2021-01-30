@@ -58,6 +58,11 @@
     text-align: center;
 }
 
+#resume-link {
+    text-decoration: none;
+    font-size: x-large;
+}
+
 /* Contact page button styling */
 .btn {
     background-color:#DE5C9D;
