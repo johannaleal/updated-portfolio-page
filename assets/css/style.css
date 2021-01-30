@@ -12,6 +12,12 @@
     color: #DE5C9D;
 }
 
+.main-container, 
+.card-body
+{
+    background-image: url("grey.jpg");
+}
+
 /* Name header styling */
 .name-hdr {
     font-size: 16px;
@@ -30,10 +36,11 @@
 }
 
 /* Profile image styling */
-#profile-img {
-    height: 150px;
+.profile-img {
+    height: 290px;
+    width: 290px;;
     float: left;
-
+    margin: 10px;
 }
 
 /* Let's Connect card body styling */
