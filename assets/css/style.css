@@ -37,6 +37,12 @@
 
 /* Profile image styling */
 .profile-img {
+    float: left;
+    margin: 10px;
+}
+
+/* Portfolio image styling */
+.portfolio-img {
     height: 290px;
     width: 290px;;
     float: left;
