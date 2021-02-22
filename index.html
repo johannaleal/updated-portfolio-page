@@ -15,21 +15,25 @@
 <body>
  <!-- Nav bar -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav style="z-index: 1" class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <span class="name-hdr">
           <a class="navbar-brand" href="index.html"><span style="color: white">Johanna Leal</span></a>
         </span>
-       
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo1">
-          <div class="navbar-nav ms-auto">
-            <a class="nav-link" href="contact.html">Contact</a>
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"    aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" style="margin-left: 70%" >
             <a class="nav-link active" aria-current="page" href="index.html">About</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </div>
-  </nav>
+    </nav>
   </header>
 
   <br />
@@ -37,7 +41,7 @@
   <!-- Main section -->
   <div class="container main-container">
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-lg-8">
           <h1 class="page-header">About Me</h1>
           <div class="row">
             <div class="col-md-3">
@@ -45,15 +49,15 @@
             </div>
 
             <div class="col-md-9">
-              <p>I am a current student at Columbia University Engineering Coding Bootcamp. My recent experience includes technical project manager at an educational SaaS startup. I have extensive experience as a software developer but switched over to project management eight years ago. I decided to take this bootcamp to get up to speed on my coding skills. These skills will assist me in my current profession as a technical project manager or perhaps as a web developer.</p>
+              <p>I am a current student at Columbia University Engineering Coding Bootcamp. My most recent experience is as a technical project manager at an educational SaaS startup. I have extensive experience as a software developer but switched over to project management eight years ago. I decided to take this bootcamp to get up to speed on my coding skills. These skills will assist me in my current profession as a technical project manager or perhaps as a web developer.</p>
 
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis porro minus accusamus vel quam quos, enim repellat consequuntur velit corporis sequi ullam veniam nesciunt aut autem distinctio suscipit facere magnam.</p>
+                <p>This portfolio showcases some of the homework and projects that I completed during my bootcamp classes. It includes full-stack technologies such as: HTML, CSS, Bootstrap, JavaScript, and node.js. To see my work, click on the GitHub icon on this page.</p>
             </div>
           </div>
         </div>
     
         <!-- Sidebar - Let's Connect -->
-        <div class="col-md-3">
+        <div class="col-lg-4">
           <div class="card mt-2">
             <div class="card-body lets-connect">
               <h4 class="card-title card-center">Let's Connect</h4>
