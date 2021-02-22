@@ -17,7 +17,7 @@ body
     background: url("grey-pattern.jpg");
 }
 
-.main-container {
+.main-container, .card {
     background-color:azure;
 }
 
@@ -74,7 +74,14 @@ body
     border-color: lightseagreen;
 }
 
+.card-centered {
+    align-content: center;
+    text-align: center;
+    background-color: white;
+}
+
 /* Footer styling */
 footer {
     text-align: center;
+    font-size: small;
 }
